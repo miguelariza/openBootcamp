@@ -1,0 +1,24 @@
+public class Main {
+    public static void main(String[] args) {
+        int result;
+        result = numbers(10, 20, 30);
+        System.out.println(result);
+
+        Coche miCoche = new Coche();
+        miCoche.addPuerta();
+        System.out.println(miCoche.nPuertas);
+    }
+
+    public static int numbers(int a, int b, int c) {
+        return a + b + c;
+    }
+
+}
+
+class Coche {
+    public int nPuertas = 4;
+
+    public void addPuerta() {
+        this.nPuertas++;
+    }
+}
