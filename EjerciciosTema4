@@ -1,0 +1,86 @@
+// Condicional If / else if / else
+
+public class Main {
+    public static void main(String[] args) {
+
+        int numeroIf = 4;
+
+        if (numeroIf == 0) {
+            out.println("Es igual a 0");
+        } else if (numeroIf < 0) {
+            out.println("Es negativo");
+        } else {
+            out.println("Es positivo");
+        }
+    }
+
+}
+
+// Bucle While
+
+public class Main {
+    public static void main(String[] args) {
+
+        int numeroWhile = 0;
+
+        while(numeroWhile < 3) {
+            System.out.println(numeroWhile);
+            numeroWhile = numeroWhile + 1;
+        }
+    }
+
+}
+
+// Bucle do while
+
+public class Main {
+    public static void main(String[] args) {
+
+        int numeroWhile = 2;
+
+        do {
+            System.out.println(numeroWhile);
+            numeroWhile = numeroWhile + 1;
+        } while (numeroWhile < 3);
+    }
+
+}
+
+// Bucle For
+
+public class Main {
+    public static void main(String[] args) {
+
+        for(int numeroFor = 0; numeroFor <= 3; numeroFor++) {
+            System.out.println(numeroFor);
+        }
+    }
+
+}
+
+// Switch Case
+
+public class Main {
+    public static void main(String[] args) {
+
+        int estacion = 3;
+
+        switch(estacion) {
+            case 0:
+                System.out.println("Es verano.");
+                break;
+            case 1:
+                System.out.println("Es invierno.");
+                break;
+            case 2:
+                System.out.println("Es otoño.");
+                break;
+            case 3:
+                System.out.println("Es primavera.");
+                break;
+            default:
+                System.out.println("¿Vives en la tierra?");
+        }
+    }
+
+}
