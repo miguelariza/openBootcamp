@@ -1,0 +1,17 @@
+import math
+import decimal
+print("Bienvenido, calcularemos tu masa corporal. Para esto necesitamos los siguientes datos:")
+print('>>>')
+peso = input('¿Tu peso en kg es... ?')
+peso.strip()
+print('>>>')
+estatura = input('¿Tu estatura en metros es: ?')
+estatura.strip()
+print('>>>')
+print('Tu peso es:' + peso + ' kilogramos y tu estatura es:' + estatura + ' metros.')
+print('>>>')
+peso = int(peso)
+estatura = float(estatura)
+imc = peso / math.pow(estatura, 2)
+imc = round(imc, 2)
+print('Tu índice de masa corporal es ' + str(imc))
